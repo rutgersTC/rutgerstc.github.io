@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>Rutgers Tzu-Ching</title>
+
+    <!-- Meta Tags & Favicon-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Website of the Rutgers Tzu-Chi Collegiate Association chapter.">
+    <meta name="author" content="Rutgers Tzu-Ching">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/app.css"/>
+
+    <!-- Javascript -->
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js" defer></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js" defer></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js" defer></script>
+    <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js" defer></script>
+    <script type="text/javascript" src="js/vendor/jquery.min.js" defer></script>
+    <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js" defer></script>
+    <script type="text/javascript" src="js/app.js" defer></script>
+</head>
+<body ng-controller="mainCtrl">
+<!--<div class="navbar-fixed">-->
+    <!--<nav>-->
+        <!--<div class="nav-wrapper green">-->
+            <!--<a href="#" class="brand-logo pad-left"><b>Rutgers Tzu-Ching</b></a>-->
+        <!--</div>-->
+        <!--<ul class="right hide-on-med-and-down">-->
+            <!--<li><a href="#about">about</a></li>-->
+            <!--<li><a href="#contact">contact</a></li>-->
+        <!--</ul>-->
+    <!--</nav>-->
+<!--</div>-->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper green">
+            <a href="#!" class="brand-logo pad-left">Rutgers Tzu-Ching</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div ng-view class="fade"></div>
+</body>
+</html>
