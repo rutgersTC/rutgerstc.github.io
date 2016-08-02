@@ -12,6 +12,10 @@ app.config(function($routeProvider) {
             templateUrl: 'views/about.html',
             controller: 'aboutCtrl'
         })
+        .when('/mission', {
+            templateUrl: 'views/mission.html',
+            controller: 'missionCtrl'
+        })
         .when('/contact', {
             templateUrl: 'views/contact.html',
             controller: 'contactCtrl'
@@ -22,6 +26,8 @@ app.config(function($routeProvider) {
 app.controller("mainCtrl", function($scope) {});
 
 app.controller("aboutCtrl", function($scope) {});
+
+app.controller("missionCtrl", function($scope) {});
 
 app.controller("contactCtrl", function($scope) {});
 
