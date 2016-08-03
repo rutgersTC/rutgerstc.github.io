@@ -16,12 +16,28 @@ body {
     font-family: Montserrat, sans-serif !important;
 }
 
+a:hover {
+    color: #3bfaff;
+}
+
+.btn {
+    background-color: #1e88e5;
+}
+
+.btn:hover {
+    background-color: #2196f3;
+}
+
 .pad-left {
     padding-left: 1em !important;
 }
 
-a:hover {
-    color: #3bfaff;
+.two-brs {
+    padding-bottom: 2em;
+}
+
+.one-br {
+    padding-bottom: 1em;
 }
 
 .fade {
