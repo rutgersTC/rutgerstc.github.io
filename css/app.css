@@ -28,6 +28,10 @@ a:hover {
     background-color: #2196f3;
 }
 
+.green-font {
+    color: #2e7d32;
+}
+
 .pad-left {
     padding-left: 1em !important;
 }
