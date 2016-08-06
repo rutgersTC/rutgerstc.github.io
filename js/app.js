@@ -1,7 +1,6 @@
 'use strict';
 
 var app = angular.module("myApp", ['ngRoute', 'ngAnimate']);
-
 app.config(function($routeProvider) {
     $routeProvider
         .when("/main", {
@@ -24,13 +23,9 @@ app.config(function($routeProvider) {
 });
 
 app.controller("mainCtrl", function($scope) {});
-
 app.controller("aboutCtrl", function($scope) {});
-
 app.controller("missionCtrl", function($scope) {});
-
 app.controller("contactCtrl", function($scope) {});
-
 
 /**
  * Directive for slide toggle functionality
@@ -55,8 +50,7 @@ app.directive('sliderToggle', function() {
             });
         }
     }
-});
-app.directive('slider', function () {
+}).directive('slider', function () {
     return {
         restrict:'A',
         compile: function (element, attr) {
@@ -78,4 +72,9 @@ app.directive('slider', function () {
             };
         }
     };
+});
+
+// Initialize collapse button
+$(".button-collapse").sideNav({
+    closeOnClick: true
 });

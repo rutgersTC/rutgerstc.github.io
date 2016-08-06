@@ -10,15 +10,47 @@
         width: 0;
     }
 }
+@media screen and (max-width: 600px) {
+    .side-nav {
+        top: 56px !important;
+    }
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../assets/icons/material-icon.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
 body {
     font-family: Montserrat, sans-serif !important;
 }
 a:hover {
-    color: #3bfaff;
+    color: #3bfaff !important;
+}
+.mobile {
+    color: white !important;
 }
 .btn {
     background-color: #1e88e5;
     border-radius: 5px;
+}
+.blue-font {
+    color: #1e88e5;
 }
 .btn:hover {
     background-color: #2196f3;
@@ -26,8 +58,10 @@ a:hover {
 .green-font {
     color: #2e7d32;
 }
-.blue-font {
-    color: #1e88e5;
+.side-nav {
+    background-color: #4caf50;
+    width: 125px;
+    padding-left: 10px !important;
 }
 figcaption {
     text-align: center;
