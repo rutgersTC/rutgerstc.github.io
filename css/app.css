@@ -83,6 +83,9 @@ figcaption {
 .one-br {
     padding-bottom: 1em;
 }
+.spaces {
+    white-space: pre-wrap;
+}
 .fade {
     position: absolute;
     top: auto;
