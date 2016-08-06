@@ -62,6 +62,9 @@ a:hover {
     background-color: #4caf50;
     width: 175px;
 }
+.side-nav a {
+    font-size: 18px !important;
+}
 figcaption {
     text-align: center;
 }
