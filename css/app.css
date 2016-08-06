@@ -60,8 +60,7 @@ a:hover {
 }
 .side-nav {
     background-color: #4caf50;
-    width: 125px;
-    padding-left: 10px !important;
+    width: 100px;
 }
 figcaption {
     text-align: center;
