@@ -3,9 +3,9 @@
 var app = angular.module("myApp", ['ngRoute', 'ngAnimate']);
 app.config(function($routeProvider) {
     $routeProvider
-        .when("/main", {
-            templateUrl: "views/main.html",
-            controller: "mainCtrl"
+        .when("/home", {
+            templateUrl: "views/home.html",
+            controller: "homeCtrl"
         })
         .when('/about', {
             templateUrl: 'views/about.html',
@@ -19,10 +19,10 @@ app.config(function($routeProvider) {
             templateUrl: 'views/contact.html',
             controller: 'contactCtrl'
         })
-        .otherwise('/main');
+        .otherwise('/home');
 });
 
-app.controller("mainCtrl", function($scope) {});
+app.controller("homeCtrl", function($scope) {});
 app.controller("aboutCtrl", function($scope) {});
 app.controller("missionCtrl", function($scope) {});
 app.controller("contactCtrl", function($scope) {});
