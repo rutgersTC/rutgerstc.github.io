@@ -85,9 +85,6 @@ figcaption {
 .side-nav {
     top: 56px !important;
 }
-.spaces {
-    white-space: pre-wrap;
-}
 .fade {
     position: absolute;
     top: auto;
