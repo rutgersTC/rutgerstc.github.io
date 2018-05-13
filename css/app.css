@@ -1,26 +1,22 @@
-@keyframes type {
-  from {
-    width: 0;
-  }
-}
-
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/MontserratRegular.woff2) format('woff2'), url(../assets/fonts/MontserratRegular.woff) format('woff'), url(../assets/fonts/MontserratRegular.ttf) format('truetype');
+  src: url("../assets/fonts/MontserratRegular.woff2") format("woff2"),
+    url("../assets/fonts/MontserratRegular.woff") format("woff"),
+    url("../assets/fonts/MontserratRegular.ttf") format("truetype");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 @font-face {
-  font-family: 'Material Icons';
+  font-family: "Material Design Icons";
+  src: url("../assets/fonts/mdi/materialdesignicons-webfont.eot") format("embedded-opentype"),
+    url("../assets/fonts/mdi/materialdesignicons-webfont.woff2") format("woff2"),
+    url("../assets/fonts/mdi/materialdesignicons-webfont.woff") format("woff"),
+    url("../assets/fonts/mdi/materialdesignicons-webfont.ttf") format("truetype"),
+    url("../assets/fonts/mdi/materialdesignicons-webfont.svg") format("svg");
   font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/mdi/materialdesignicons-webfont.woff2') format('woff2'),
-  url('../assets/fonts/mdi/materialdesignicons-webfont.woff') format('woff'),
-  url('../assets/fonts/mdi/materialdesignicons-webfont.ttf') format('truetype'),
-  url('../assets/fonts/mdi/materialdesignicons-webfont.svg') format('svg'),
-  url('../assets/fonts/mdi/materialdesignicons-webfont.eot') format('eot');
+  font-weight: normal;
 }
 
 body {
@@ -90,7 +86,7 @@ a:hover {
 }
 
 .larger {
-  font-size: 1.25em;
+  font-size: 1.25em !important;
 }
 
 .pad-left {
