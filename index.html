@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <title>Rutgers Tzu-Ching</title>
+  <meta charset="UTF-8">
+  <title>Rutgers Tzu-Ching</title>
 
-    <!-- Meta Tags & Favicon-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-    <meta name="description" content="Website of the Rutgers Tzu-Chi Collegiate Association chapter.">
-    <meta name="author" content="Rutgers Tzu-Ching">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico"/>
+  <!-- Meta Tags & Favicon-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="Website of the Rutgers Tzu-Chi Collegiate Association chapter.">
+  <meta name="author" content="Rutgers Tzu-Ching">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/build.css"/>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" media="all" href="css/build.css" />
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="js/build.js" defer></script>
+  <!-- Javascript -->
+  <script type="text/javascript" src="js/build.js" defer></script>
 </head>
+
 <body ng-controller="homeCtrl">
-<div class="navbar-fixed">
+  <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper green">
-            <a href="#!" class="brand-logo pad-left waves-effect"><b>RUTC</b></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#!about" class="waves-effect"><b>about</b></a></li>
-                <li><a href="#!mission" class="waves-effect"><b>mission</b></a></li>
-                <li><a href="#!contact" class="btn waves-effect waves-light">contact</a></li>
-            </ul>
-            <a href="#!" data-activates="mobile-nav" class="pad-left button-collapse waves-effect"><i class="material-icons">menu</i></a>
-            <ul class="side-nav" id="mobile-nav">
-                <li>
-                    <a href="#!about" class="mobile waves-effect center">about</a>
-                </li>
-                <li>
-                    <a href="#!mission" class="mobile waves-effect center">mission</a>
-                </li>
-                <li>
-                    <a href="#!contact" class="mobile waves-effect center">contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="nav-wrapper green">
+        <a href="#!" class="brand-logo pad-left waves-effect"><b>RUTC</b></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#!about" class="waves-effect"><b>about</b></a></li>
+          <li><a href="#!mission" class="waves-effect"><b>mission</b></a></li>
+          <li><a href="#!contact" class="btn waves-effect waves-light larger">contact</a></li>
+        </ul>
+        <a href="#!" data-activates="mobile-nav" class="pad-left button-collapse waves-effect"><i class="material-icons">menu</i></a>
+        <ul class="side-nav" id="mobile-nav">
+          <li>
+            <a href="#!about" class="mobile waves-effect center">about</a>
+          </li>
+          <li>
+            <a href="#!mission" class="mobile waves-effect center">mission</a>
+          </li>
+          <li>
+            <a href="#!contact" class="mobile waves-effect center"><b>contact</b></a>
+          </li>
+        </ul>
+      </div>
     </nav>
-</div>
-<div class="center">
+  </div>
+  <div class="center">
     <img class="responsive-img rounded" src="assets/images/header-banner.jpg" width="700px" alt="banner">
-</div>
-<h1 class="hidden">Rutgers Tzu-Ching</h1>
-<div ng-view class="fade"></div>
+  </div>
+  <h1 class="hidden">Rutgers Tzu-Ching</h1>
+  <div ng-view class="fade"></div>
 </body>
 </html>

@@ -16,7 +16,19 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/icons/MaterialIcons-Regular.woff2) format('woff2'), url(../assets/icons/MaterialIcons-Regular.woff) format('woff'), url(../assets/icons/MaterialIcons-Regular.ttf) format('truetype');
+  src: url('../assets/fonts/mdi/materialdesignicons-webfont.woff2') format('woff2'),
+  url('../assets/fonts/mdi/materialdesignicons-webfont.woff') format('woff'),
+  url('../assets/fonts/mdi/materialdesignicons-webfont.ttf') format('truetype'),
+  url('../assets/fonts/mdi/materialdesignicons-webfont.svg') format('svg'),
+  url('../assets/fonts/mdi/materialdesignicons-webfont.eot') format('eot');
+}
+
+body {
+  font-family: Montserrat, sans-serif !important;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .align-top {
@@ -37,10 +49,6 @@
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
-}
-
-body {
-  font-family: Montserrat, sans-serif !important;
 }
 
 a:hover {
@@ -75,10 +83,6 @@ a:hover {
 
 .side-nav a {
   font-size: 18px !important;
-}
-
-figcaption {
-  text-align: center;
 }
 
 .rounded {
